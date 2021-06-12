@@ -1,0 +1,50 @@
+.sidebar{
+      width: 15%;
+      min-height: 95%;
+      height: 89vh;
+      background-color: #233142;
+}
+.sidebar{
+     margin: 0;
+     overflow: scroll;
+}
+.sidebar li{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      color: white;
+      padding: 15px;
+      border-bottom: 1px solid rgb(71, 64, 64);
+}
+.side-arrow{
+      font-size: 15px !important;
+}
+/* -------------------------------scroolbar edit --------------------*/
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+ display: none;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:linear-gradient(transparent , #30ff00); 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:linear-gradient(transparent , #2486ad); 
+}
+
+
+
+
+@media screen and (max-width:600px) {
+      .sidebar{display:none}
+}

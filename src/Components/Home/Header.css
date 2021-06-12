@@ -1,0 +1,85 @@
+.header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: black;
+      color: white;
+      height: 9vh;
+      width: 100%;
+}
+/* ----------------------------------------------header left--------------------------------------------------- */
+.contract-address{
+      display: flex;
+}
+.number{
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+}
+.address{
+      display: flex;
+      align-items: center;
+}
+.icon{
+     margin-right: 10px;
+     background-color: rgba(248, 246, 246, 0.267);
+     border-radius: 50%;
+     height: 15px;
+     width: 15px;
+     font-size: 10px;
+     padding: 5px;
+     color: white;  
+}
+/* ----------------------------------------------Header Middle-------------------------------------------- */
+.search-content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.search-content button{
+      background-color: orangered;
+      color: palegreen;
+      border: none;
+}
+
+#search{
+      height: 31px;
+      width: 300px;
+}
+/* ---------------------------------------------------Header right------------------------------------------- */
+.icons{
+     margin-left: 10px;
+     background-color: rgba(248, 246, 246, 0.267);
+     border-radius: 50%;
+     height: 15px;
+     width: 15px;
+     font-size: 10px;
+     padding: 5px;
+     color: white;
+}
+.icons:hover{
+      background-color: white;
+      color: maroon;
+      transition: .5s;
+}
+
+/* -----------------------------------------Responsive---------------------------- */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+.search-content{
+      display: none;
+}
+}
+@media screen and (max-width:600px) {
+      .address p{
+            display: none;
+      }
+      .number p{
+            display:none;
+      }
+      .icon{
+            margin-right: 0px;
+      }
+}
+

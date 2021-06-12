@@ -1,0 +1,15 @@
+.carousel{
+      width: 85%;
+      overflow:auto;
+      height: 89vh;
+      margin-top: 30px;
+}
+
+
+@media screen and (max-width:600px) {
+     .carousel{
+      width: 100%;
+      overflow:auto;
+      height: 89vh;
+}
+}
